@@ -1,1 +1,5 @@
 audio/
+CUDA/*.c
+CUDA/*.h
+
+*.txt
