@@ -3,6 +3,11 @@ NTHU Parallel Programming Final Project.
 
 Use ACF + medianfilter as algorithm.
 
+- Input: wav file
+- Output: pitch array, where each element is the semitone of one frame. (Default frame duration: 32 ms)
+
+One can copy the pitch array to `mymidi.cpp`'s pitch and generate corresponding midi file. Note that there might be some noise between the pitch.
+
 ## MPI
 
 Use MPI to run multiple threads, each thread is responsible for `num_frames / # of threads` frames.
